@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Cyb",
+  "name": "Cybernetics",
+  "description": "",
+  "version": "",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "Copyright ©  2015",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
