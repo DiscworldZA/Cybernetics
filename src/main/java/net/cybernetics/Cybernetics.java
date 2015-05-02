@@ -1,5 +1,7 @@
 package net.cybernetics;
 
+import net.cybernetics.block.CybBlocks;
+import net.cybernetics.item.CybItems;
 import net.minecraftforge.common.MinecraftForge;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -16,10 +18,16 @@ public class Cybernetics
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
+		//Init Blocks
+		CybBlocks.Init();
+		
+		//Init Items
+		CybItems.Init();
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
+		
 	}
 }
